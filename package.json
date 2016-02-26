@@ -1,0 +1,26 @@
+{
+  "name": "tashmoochat",
+  "version": "0.0.1",
+  "description": "Ehm... I'm not sure what this is gonna be > Enjoy it!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StyvekDrtic/TashmooChat.git"
+  },
+  "keywords": [
+    "chat",
+    "security"
+  ],
+  "author": "Jiri Stepanek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StyvekDrtic/TashmooChat/issues"
+  },
+  "homepage": "https://github.com/StyvekDrtic/TashmooChat#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
