@@ -2,6 +2,8 @@ body {
 
 }
 
+/* Login and Regster */
+
 .credits {
   position: absolute;
   bottom: 10px;
@@ -50,4 +52,108 @@ body {
 
 .register input {
   margin-bottom: 15px;
+}
+
+
+
+/* Chat */
+
+
+.leftPanel {
+  width: 300px;
+  height: 100vh;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.friends {
+  height: calc(100% - 130px);
+  overflow-y: auto;
+  position: relative;
+  top: -20px;
+}
+
+.friends::-webkit-scrollbar {
+    display: none;
+}
+
+.friends li {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.friends li a {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.friends li img {
+  height: 50px;
+  width: 50px;
+  border: 1px solid #222324;
+  border-radius: 1000px;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.1),0 0 0 1px rgba(0,0,0,0.1);
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.friends li h3 {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 !important;
+}
+
+.friends li button {
+  vertical-align: middle;
+  float: right;
+  margin-top: calc(25px - 16px);
+}
+
+.friends li i {
+  color: #42afe3;
+  vertical-align: middle;
+}
+
+.pending {
+  position: relative;
+  background: rgb(228, 230, 233);
+  padding: 10px;
+  height: calc(100% - 20px) !important;
+  border-radius: 10px;
+}
+
+.pending h3 {
+  vertical-align: baseline !important;
+  width: 176px;
+}
+
+.pending i {
+  color: white !important;
+  font-size: 21px !important;
+}
+
+.friendAccept, .friendIgnore {
+  width: 49%;
+  margin-top: 20px;
+}
+
+.manageFriends {
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+}
+
+.addUser {
+  height: 100%;
+  text-align: center;
+}
+
+.removeUser {
+  height: 100%;
+  border-bottom-right-radius: 5px;
 }

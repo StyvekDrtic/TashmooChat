@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>TashmooChat</title>
+    <!-- 3rd Party -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.0.15/css/bulma.min.css" charset="utf-8">
+    <!-- my css -->
+    <link rel="stylesheet" href="main.css" charset="utf-8">
+  </head>
+  <body>
+    <div class="leftPanel box">
+      <div class="logo">
+        <h1 class="title is-2">TashmooChat<h1>
+        <hr>
+      </div>
+      <div class="friends">
+        <ul>
+          <li>
+            <img src="user_foto.jpg" alt="">
+            <h3 class="title is-5">Petr Omáčka</h3>
+            <button class="button is-primary is-outlined">Chat</button>
+            <hr>
+          </li>
+          <li>
+            <img src="user_foto.jpg" alt="">
+            <h3 class="title is-5">Petr Omáčka</h3>
+            <button class="button is-primary is-outlined">Chat</button>
+            <hr>
+          </li>
+          <li class="pending">
+            <img src="user_foto.jpg" alt="">
+            <h3 class="title is-5">Allahu Akbar</h3>
+            <a class="friendAccept button is-success">
+              <i class="fa fa-check"></i>
+            </a>
+            <a class="friendIgnore button is-danger">
+              <i class="fa fa-times"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="manageFriends columns is-gapless is-mobile">
+        <div class="addUser column is-half">
+          <a class="button is-primary is-outlined">
+            Add Friend
+          </a>
+        </div>
+        <div class="removeUser column is-half">
+          <a class="button is-danger is-outlined">
+            Remove Friend
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
