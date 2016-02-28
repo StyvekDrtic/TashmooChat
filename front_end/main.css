@@ -22,7 +22,7 @@ body {
   width: 500px;
   height: 240px;
   position: absolute;
-  top: calc(45vh - 150px);
+  top: calc(45vh - 240px/2);
   left: calc(50% - 250px);
 }
 
@@ -32,5 +32,22 @@ body {
 }
 
 .login input {
+  margin-bottom: 15px;
+}
+
+.register {
+  width: 500px;
+  height: 330px;
+  position: absolute;
+  top: calc(42vh - 330px/2);
+  left: calc(50% - 250px);
+}
+
+.register button {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.register input {
   margin-bottom: 15px;
 }
