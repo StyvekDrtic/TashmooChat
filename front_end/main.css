@@ -1,0 +1,36 @@
+body {
+
+}
+
+.credits {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.credits p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.credits a {
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.login {
+  width: 500px;
+  height: 240px;
+  position: absolute;
+  top: calc(45vh - 150px);
+  left: calc(50% - 250px);
+}
+
+.login button {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.login input {
+  margin-bottom: 15px;
+}

@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/StyvekDrtic/TashmooChat#readme",
   "dependencies": {
-    "bootstrap": "^3.3.6"
+    "bulma": "0.0.16",
+    "express": "^4.13.4"
   }
 }
